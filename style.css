@@ -27,7 +27,7 @@ header li {
 }
 header li a {
   text-decoration: none;
-  color: whte;
+  color: white;
 }
 header li a:hover {
   color: hsl(300, 69%, 71%);
