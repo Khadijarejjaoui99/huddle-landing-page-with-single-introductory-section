@@ -27,10 +27,10 @@ header li {
 }
 header li a {
   text-decoration: none;
-  color: inherit;
+  color: whte;
 }
 header li a:hover {
-  color: white;
+  color: hsl(300, 69%, 71%);
 }
 header img {
   width: 200px;
