@@ -87,12 +87,12 @@ footer {
   font-size: 30px;
   border-radius: 50%;
   padding: 10px 16px;
-  margin: 0 10px;
+  margin: 10px;
   border: 1px solid white;
   cursor: pointer;
 }
-.icon:hover{
-    background-color: hsl(300, 69%, 71%);
+.icon:hover {
+  background-color: hsl(300, 69%, 71%);
 }
 .icon:last-child {
   margin-right: 100px;
@@ -103,9 +103,13 @@ footer {
     font-size: 35px;
   }
 }
+
 @media (max-width: 1080px) {
   main {
     flex-direction: column;
+  }
+  .icon:last-child {
+    margin: 10px;
   }
   .info h1 {
     font-size: 45px;
