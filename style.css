@@ -75,6 +75,29 @@ main img {
   color: white;
   background-color: hsl(300, 69%, 71%);
 }
+footer {
+  display: flex;
+  float: right;
+}
+.icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 30px;
+  border-radius: 50%;
+  padding: 10px 16px;
+  margin: 0 10px;
+  border: 1px solid white;
+  cursor: pointer;
+}
+.icon:hover{
+    background-color: hsl(300, 69%, 71%);
+}
+.icon:last-child {
+  margin-right: 100px;
+}
+
 @media (max-width: 1350px) {
   .info h1 {
     font-size: 35px;
