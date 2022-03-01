@@ -5,9 +5,11 @@
   box-sizing: border-box;
 }
 body {
-  background-color: #9b79f2;
+  background-color: hsl(257, 40%, 49%);
+  background-image: url(images/bg-desktop.svg);
   font-family: Poppins;
   font-size: 16px;
+  overflow-x: hidden;
 }
 header {
   display: flex;
@@ -69,25 +71,29 @@ main img {
   box-shadow: 0 5px 20px rgb(58, 57, 57);
 }
 .info button:hover {
-  color: rgb(218, 59, 218);
+  color: white;
+  background-color: hsl(300, 69%, 71%);
 }
 @media (max-width: 1350px) {
   .info h1 {
     font-size: 35px;
   }
 }
-@media (max-width: 1200px) {
+@media (max-width: 1080px) {
   main {
     flex-direction: column;
   }
   .info h1 {
     font-size: 45px;
   }
-  header{
-      margin-left: 10px;
+  header {
+    margin-left: 10px;
   }
 }
 @media (max-width: 730px) {
+  body {
+    background-image: url(images/bg-mobile.svg);
+  }
   ul {
     visibility: hidden;
   }
